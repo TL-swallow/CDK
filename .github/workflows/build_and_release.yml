@@ -1,8 +1,9 @@
 name: CDK CI
 
 on:
-  release:
-      types: [released]
+  push:
+    tags:
+      - 'v*'
 
 jobs:
 
